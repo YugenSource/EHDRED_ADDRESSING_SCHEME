@@ -15,4 +15,16 @@ The typical input to create an address is a public key but can vary. It needs to
 
 ## Examples
 
-`[EHDRED]::[Request]addr_a4e42acf366bdd395b8403def744420bb550312a5354585057aadd1e?p=1,sec="STRICT"@strict-secure`
+```
+EXAMPLE: [EHDRED]::[Request]addr_a4e42acf366bdd395b8403def744420bb550312a5354585057aadd1e?p=1,sec="STRICT"@sec7
+
+PROTO: [EHDRED]
+PROTO-WITH-SUBGROUP: [EHDRED]::[REGISTER]
+ADDR_PREFIX: addr_
+ADDR_PREFIX-WITH-SUBGROUP: addr::cert_
+ADDRESS (224-bit BLAKE2s or SHA3): a4e42acf366bdd395b8403def744420bb550312a5354585057aadd1e
+SUFFIX: ?
+VARIABLES: p=1,sec="STRICT"
+ACTION: @
+ACTION-TYPES: sec7 (strict-security)
+```
